@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio Dental</title>
+    <link rel="shortcut icon" href="./IMG/logoIcon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./IMG/logoIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Extensiones/css/normalize.css">
+    <link rel="stylesheet" href="./Extensiones/css/stFooter.css">
+    <link rel="stylesheet" href="./Extensiones/css/stNosotros.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header class="Header">
+        <div class="logoH">
+            <img src="./IMG/Luis Tibán Odontología.png" alt="Consultorio">
+        </div>
+        <nav class="navHeader">
+            <ul class="ulNavH">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a class="active" href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="ayuda.html">AYUDA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger
+      project-id="agentebc-456217"
+      agent-id="1dc50dfc-c065-4a71-974a-f7d4522adaf9"
+      language-code="es"
+      max-query-length="-1">
+      <df-messenger-chat-bubble
+        chat-title="odontoia">
+      </df-messenger-chat-bubble>
+    </df-messenger>
+    <style>
+      df-messenger {
+        z-index: 999;
+        position: fixed;
+        --df-messenger-font-color: #000;
+        --df-messenger-font-family: Google Sans;
+        --df-messenger-chat-background: #f3f6fc;
+        --df-messenger-message-user-background: #d3e3fd;
+        --df-messenger-message-bot-background: #fff;
+        bottom: 16px;
+        right: 16px;
+      }
+    </style>
+    
+    <main class="Main">
+        <img src="./IMG/white.jpg" alt="" class="top-padding">
+        <h1 class="Titulo"><span>Nuestro Consultorio</span></h1>
+        <section class="consultorio">
+            <div class="card">
+                <figure>
+                    <img src="./IMG/consultorio.jpeg" alt="">
+                </figure>
+                <div class="contenido">
+                    <h1>Consultorio</h1>
+                    <br>
+                    <p>
+                        Bienvenidos a Odonto Cent, consultorio dental, 
+                        ubicado cerca del Mercado La Esperanza 
+                        en Riobamba, Ecuador. Ofrecemos servicios 
+                        de alta calidad en un ambiente cómodo y 
+                        acogedor. 
+                        <br>
+                        <br>
+                        Contamos con una amplia gama de 
+                        servicios dentales, incluyendo profilaxis, 
+                        endodoncias, cirugía oral de terceros molares, 
+                        rehabilitación oral y blanqueamientos. ¡Visítenos 
+                        para una experiencia dental excepcional!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <h1 class="Titulo"><span>Nuestras Instalaciones</span></h1>
+        <section class="instalaciones">
+            <div class="card reverse">
+                <figure>
+                    <video src="./IMG/instalaciones.mp4" controls autoplay muted loop width="600" height="400"></video>
+                </figure>                
+                <div class="contenido">
+                    <h1>Equipos Médicos e Instalaciones</h1>
+                    <br>
+                    <p>
+                        Nuestras instalaciones están equipadas con 
+                        lo último en tecnología dental para asegurar 
+                        la mejor atención posible. 
+                        <br>
+                        Contamos con dos 
+                        sillones dentales modernos, una cómoda sala
+                        de espera para su comodidad y un área de
+                        esterilización avanzada para mantener los
+                        más altos estándares de higiene y seguridad.
+                    </p>                    
+                </div>
+            </div>
+        </section>
+        <h1 class="Titulo"><span>Nuestro Odontólogo</span></h1>
+        <section class="odontologo">
+            <div class="card">
+                <figure>
+                    <img src="./IMG/ltOp.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                    <h1>Od. Luis Tibán</h1>
+                    <br>
+                    <img src="./IMG/ltProfile.jpg" alt="">
+                    <br>
+                    <p>
+                        Luis Tibán es un odontólogo comprometido con la salud dental y el bienestar de sus pacientes. 
+                        Su enfoque se centra en proporcionar atención personalizada y de alta calidad, utilizando 
+                        las últimas técnicas y tecnologías en el campo de la odontología. Luis se distingue por su 
+                        amabilidad, profesionalismo y dedicación, asegurando que cada visita al consultorio sea 
+                        una experiencia positiva y confortable para todos sus pacientes. Su objetivo es promover 
+                        la salud bucal y mejorar la calidad de vida de quienes confían en sus cuidados.
+                    </p>                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="Footer">
+        <div class="Container">
+            <div class="footCont">
+                <img src="./IMG/LT_Blanco.png" alt="">
+                <div class="icons">
+                    <a href="https://www.facebook.com/luis.tiban.710?locale=es_LA"><i class='bx bxl-facebook-circle' style='color:#ffffff'></i></a>
+                    <a href="https://www.instagram.com/lgtiban/"><i class='bx bxl-instagram-alt' style='color:#ffffff'></i></a>
+                    <a href="https://x.com/?lang=es"><i class='bx bxl-twitter' style='color:#ffffff'></i></a>
+                    <a href="https://www.youtube.com/@luistiban8666"><i class='bx bxl-youtube' style='color:#ffffff'></i></a>
+                </div>
+            </div>
+            <div class="footCont">
+                <h2>Sobre Nosotros</h2>
+                <br>
+                <p>
+                    En nuestro consultorio dental, nos dedicamos a <br>
+                    proporcionar un cuidado excepcional y personalizado <br>
+                    a cada paciente. Nuestro equipo está comprometido <br>
+                    con la excelencia, utilizando tecnología avanzada <br>
+                    y técnicas innovadoras para asegurar la mejor atención.
+                </p>                
+            </div>
+            <div class="footCont">
+                <h2>Contáctanos</h2>
+                <br>
+                <ul class="info">
+                    <li>
+                        <span><i class='bx bxs-phone-call' style='color:#ffffff' ></i></span>
+                        <p>
+                            <a href="tel:+593 979119093">+593 979119093</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class='bx bxs-envelope' style='color:#ffffff' ></i></span>
+                        <p>
+                            <a href="mailto:ltiban11@hotmail.com">ltiban11@hotmail.com</a>
+                        </p>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-map' style='color:#ffffff' ></i></i></span>
+                        <p>
+                            <a href="https://maps.app.goo.gl/oPKPrz28rWqjVMpm6" target="_blank">Juan de Dios Martínez y Otto Arosemena</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="infFinal">
+            <p>&copy; 2024 Steve Tibán. Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
