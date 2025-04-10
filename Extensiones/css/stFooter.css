@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 30px 0; 
+    background-color: #0185ad; 
+    color: white; 
+    flex: 1; 
+}
+
+.Container .footCont {
+    flex: 1;
+    padding: 0 20px; 
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.Container .footCont img {
+    max-width: 50%; 
+}
+
+.Container .icons {
+    margin-top: 20px;
+}
+
+.Container .icons a {
+    margin-right: 10px; 
+    font-size: 3em; 
+}
+
+.Container ul {
+    padding-left: 0;
+}
+
+.Container .info li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Container .info li span {
+    margin-right: 10px; 
+    font-size: 1.5em; 
+}
+
+.Container .info li a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.Container .footCont h2,
+.Container .footCont p {
+    text-align: left;
+}
+
+.infFinal {
+    background: #003e68;
+    text-align: center;
+    padding: 20px 0; 
+    width: 100%;
+    color: white;
+    margin-top: auto; 
+}

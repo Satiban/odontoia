@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caracteristicas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.testimonial-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.card {
+    width: 100%; 
+    margin: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3); 
+    padding: 20px;
+    text-align: center; 
+    overflow: hidden;
+}
+
+.card .title {
+    margin-top: 10px; 
+}
+
+.card img {
+    width: 20%;
+    max-width: 100%; 
+    border-radius: 8px;
+    margin: 0 auto; 
+}
+
+.card .contenido {
+    margin-top: 20px;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+    transform: translateY(-3%);
+}
